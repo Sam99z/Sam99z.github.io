@@ -3,11 +3,12 @@
 <head>
 <title>Magnus Nordvik</title>
 <style>
-body {background-color: #f6cadf;}
 .Icon {
     width: 250px; height: 250px; 
     }
-
+body {
+        background: url("fire.gif") repeat
+}
 @-webkit-keyframes swinging{
  0%{-webkit-transform: rotate(10deg);}
 50%{-webkit-transform: rotate(-5deg)}
@@ -54,6 +55,8 @@ body {background-color: #f6cadf;}
             filter: blur(5px); } }
  
 .swingimage{
+position:fixed;
+right:0px;
     -webkit-transform-origin: 80% 900;
     transform-origin: 10% 80;
     -webkit-animation: swinging 0.2s ease-in-out infinite;
@@ -79,23 +82,34 @@ body {background-color: #f6cadf;}
   text-align: center;
   text-transform: uppercase;
   position: fixed; }  
+  #midtstilt {
+    background-color: #f6cadf;
+      margin: auto;
+      max-width:70%;
+justify-content: center;
+align-content: center;
 
-
+  }
 </style>
 </head>
 <body>
-
+<div id="midtstilt">
 <img class="Icon swingimage" src="MagnusNordvik2.png">
 <h1 class="pulsate" style="text-align-last: center; font-size: 600%;">Magnus Nordvik</h1>
 <h1>Magnus Nordvik også kjent som mNordvik</h1>
 <p>Magnus Nordvik for Norge</p>
 <p>Magnus Nordvik har slosset for oss alle i mange år! Dette er tiden å støtte mNordvik!</p>
-<img src="MagnusNordvik.png">
+<img style="background-position: right 30px center;"src="MagnusNordvik.png">
 <img src="giphy1.gif">
+<p> Magnus Nordvik har hatt en tøff barndom. Han slet med alkoholfrie foreldrer som gjor at de ble så deprimert på hverdagen og aldri kjøpt Magnus noe ostepop.</p>
+<p>Magnus ble inspirert av denne mangelen av popcorn, at han stormet ut av huset sitt uten sko på midt i november. "Guri mæ det va kaldt" sa han</p>
+<p></p>
 <div>
     <p>Dette er en fanside for Magnus Nordvik, han bor i alle våre hjerter</p>
     <h2>KONTAKT</h2>
     <p>For kontakt om nettsiden, email: jostein_s_p@hotmail.com</p>
 </div>
+</div>
+
 </body>
 </html>
