@@ -4,12 +4,35 @@
 <title>Magnus Nordvik</title>
 <style>
 body {background-color: #f6cadf;}
-.Icon {width: 250px; height: 250px}
+.Icon {
+    width: 250px; height: 250px; 
+    }
+
+@-webkit-keyframes swinging{
+ 0%{-webkit-transform: rotate(10deg);}
+50%{-webkit-transform: rotate(-5deg)}
+100%{-webkit-transform: rotate(10deg);}
+}
+ 
+@keyframes swinging{
+    0%{transform: rotate(20deg);}
+    50%{transform: rotate(-2deg)}
+    100%{transform: rotate(20deg);}
+}
+ 
+.swingimage{
+    -webkit-transform-origin: 80% 900;
+    transform-origin: 10% 80;
+    -webkit-animation: swinging 0.2s ease-in-out infinite;
+    animation: swinging 0.5s ease-in-out forwards  infinite;
+}
+
 
 </style>
 </head>
 <body>
-<img class="Icon" src="MagnusNordvik2.png">
+
+<img class="Icon swingimage" src="MagnusNordvik2.png">
 <h1>Magnus Nordvik også kjent som mNordvik</h1>
 <p>Magnus Nordvik for Norge</p>
 <p>Magnus Nordvik har slosset for oss alle i mange år! Dette er tiden å støtte mNordvik!</p>
